@@ -1,0 +1,9 @@
+.icon img {
+    max-width: 200%;
+    max-height: 50px;
+}
+
+main img {
+    display: flex;
+    justify-items: center;
+}
