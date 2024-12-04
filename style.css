@@ -1,90 +1,41 @@
-/* Reset the basic styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-    color: #333;
+    display: fixed;
+    background-color: green;
 }
 
-header {
-    background-color: #ffcc00;
-    text-align: center;
-    padding: 20px;
-}
-
-header .icon img {
-    max-width: 100px;
-    max-height: 50px;
+header .UserSection img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+   border-radius: 50%; 
+   top: 400px;
+   left: 20px;
 }
 
 header h1 {
-    font-size: 3em;
-    color: #333;
-}
-
-nav a {
-    margin: 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #ff6600;
-}
-
-/* Main Section Styles */
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-main h4 {
-    font-size: 1.8em;
-    margin: 20px 0;
-}
-
-main img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-button {
-    background-color: #ff6600;
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
     color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.2em;
 }
 
-button:hover {
-    background-color: #ff3300;
+header .UserSection {
+    position: relative;
+    background-color: white;
+    height: 160px;
+    backdrop-filter: blur(3px);
 }
 
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
+
+header .UserSection h2 {
+    position: relative;
+    left: 160px;
+    bottom: 120px;
+    font-family: Arial, Sans-Serif;
 }
 
-footer a {
-    color: #ffcc00;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer a:hover {
-    color: #ff6600;
+header .UserSection p {
+    font-family: Arial, Sans-Serif;
+    color: red;
+    
 }
